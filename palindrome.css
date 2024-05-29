@@ -1,0 +1,23 @@
+
+#Principal {
+    background-color :lightblue;
+    padding: 2vw;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  #titulo {
+    font-size: 6vw;
+  }
+  
+  #text-input, #check-btn {
+  font-size: 3vw; 
+  }
+  
+  #result {
+    padding: 2vw;
+    text-align: center;
+    font-family: Times New Roman, sans-serif; 
+    color: darkblue; 
+    font-size: 4vw; 
+  }
