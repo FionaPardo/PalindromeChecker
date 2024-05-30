@@ -1,4 +1,4 @@
-//Espero corra todo el html hasta ejecutar el js
+//Espero corra todo el html hasta ejecutar js
 document.addEventListener('DOMContentLoaded', () => {
     //Busco el botón submit
         const formSubmit = document.getElementById('check-btn');
