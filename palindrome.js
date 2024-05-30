@@ -10,17 +10,17 @@ document.addEventListener('DOMContentLoaded', () => {
     //Ubico dónde quiero mostrar la salida 
           const resultado = document.getElementById('result');
           if (dato === '') {
-              alert("Please input a value");
+              alert("Proporciona un valor");
           } else {
     //Le aplico el formato al dato
             const datoInicio = transformarInput(dato);
     //Invierto el orden del dato
             const datoFin = invertirStr(datoInicio);
-    //Determino la salida según un resultado booleano
+    //Determino la salida según igualdad/desigualdad entre datos
             if (datoInicio === datoFin){
-              resultado.textContent = dato + " is a palindrome"
+              resultado.textContent = dato + " es un palíndromo!"
           } else {
-              resultado.textContent = dato + " is not a palindrome"
+              resultado.textContent = dato + " no es un palíndromo!"
           }
           };
             });
